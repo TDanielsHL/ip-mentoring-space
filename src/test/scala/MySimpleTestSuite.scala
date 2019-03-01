@@ -1,7 +1,8 @@
 package notes
+
 import minitest._
 
-object MySimpleSuite extends SimpleTestSuite {
+object MySimpleTestSuite extends SimpleTestSuite {
   test("should be") {
     assertEquals(2, 1 + 1)
   }
